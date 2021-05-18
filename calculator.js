@@ -9,3 +9,7 @@ if (c === '+') console.log(a + b);
 if (c === '-') console.log(a - b);
 if (c === '*') console.log(a * b);
 if (c === '/') console.log(a / b);
+
+const laila = prompt('which laila are you (A or B)');
+if (laila === 'A');
+console.log('You are the best Laila!');
