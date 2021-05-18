@@ -12,8 +12,8 @@ if (isNaN(a) || isNaN(b)) {
     console.log('operation is not valid');
   } else {
     if (c === '+') console.log(parseInt(a) + parseInt(b));
-    if (c === '-') console.log(a - b);
-    if (c === '*') console.log(a * b);
-    if (c === '/') console.log(a / b);
+    if (c === '+') console.log(parseInt(a) - parseInt(b));
+    if (c === '+') console.log(parseInt(a) * parseInt(b));
+    if (c === '+') console.log(parseInt(a) / parseInt(b));
   }
 }
